@@ -1,0 +1,2 @@
+{"id":1,"name":"Test program","notInterstingMember":"Don't care about this","anotherMember":100,"forgetThisField":999}
+{"id":1,"notInterstingMember":"Don't care about this","anotherMember":100,"forgetThisField":999}
