@@ -19,9 +19,7 @@ for i in range(0, len(str)):
             count=count+1
         else:
             prev = stack.pop()
-            if(prev == '('):
-                continue
-    
+                
 print(stack)   
 
 if count == 0:
