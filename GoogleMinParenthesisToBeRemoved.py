@@ -29,7 +29,7 @@ if count == 0:
         print(f'The stack is having proper parenthesis, hence count is {count}')
     else:
         print(f'{count+1} characters have to be removed to make sure we have proper parenthesis set')
-elif count == 1:
+elif count >= 1:
     if len(stack) == 1:
         print(f'{count+1} characters have to be removed to make sure we have proper parenthesis set')
     else:
