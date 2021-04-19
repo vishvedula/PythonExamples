@@ -24,8 +24,7 @@ def swap(stringReverse):
         lengthStr = lengthStr-1
     print(f'final Reversed String Array  is {stringReverse}')
     
-    for i in range(len(stringReverse)):
-        finalStr = finalStr +' ' + stringReverse[i]
+    finalStr = (' ').join(stringReverse)  
     
     print(f'final ReversedString is {finalStr}')
     
