@@ -21,8 +21,9 @@ for i in range(0, len(str)):
             prev = stack.pop()
                 
 print(stack)   
+print(' The number of removals is ', len(stack))
 
-if count == 0:
+'''if count == 0:
     if len(stack) == 0:
         print(f'The stack is having proper parenthesis, hence count is {count}')
     else:
@@ -31,5 +32,6 @@ elif count >= 1:
     if len(stack) == 1:
         print(f'{count+1} characters have to be removed to make sure we have proper parenthesis set')
     else:
-        print(f'{count} character has to be removed to make sure we have proper parenthesis set')   
+        print(f'{count} character has to be removed to make sure we have proper parenthesis set') '''
+
 
